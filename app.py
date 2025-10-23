@@ -30,7 +30,7 @@ with st.sidebar:
 
 
 with st.expander("🔍 Analizar Polaridad y Subjetividad"):
-    text1 = st.text_area("✏️ Escribe aquí tu texto en español:")
+    text1 = st.text_area(" Escribe aquí tu texto en español:")
     
     if text1:
       
@@ -66,4 +66,4 @@ with st.expander("📝 Corrección ortográfica (en inglés)"):
         st.write(corrected)
 
 
-st.caption("Desarrollado con ❤️ usando Streamlit, Google Translate y TextBlob.")
+st.caption("Usando Streamlit, Google Translate y TextBlob.")
